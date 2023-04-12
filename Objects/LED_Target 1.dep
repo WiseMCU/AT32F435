@@ -1,1523 +1,0 @@
-Dependencies for Project 'LED', Target 'Target 1': (DO NOT MODIFY !)
-CompilerVersion: 6160000::V6.16::ARMCLANG
-F (.\Core\src\main.c)(0x643672F2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/main.o -MD)
-I (Core\inc\main.h)(0x643668FD)
-I (Core\inc\at32f435_437_clock.h)(0x6436726E)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-I (BSP\inc\sys.h)(0x6432CB59)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (BSP\inc\gpio.h)(0x64327381)
-I (BSP\inc\i2c.h)(0x6432CB10)
-I (RTT\inc\SEGGER_RTT.h)(0x5A74A217)
-I (RTT\inc\SEGGER_RTT_Conf.h)(0x5A74A218)
-I (User\inc\user.h)(0x64366A90)
-I (lcd_touch\inc\touch.h)(0x6432C59C)
-F (.\User\src\user.c)(0x64366AF6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/user.o -MD)
-I (User\inc\user.h)(0x64366A90)
-I (BSP\inc\sys.h)(0x6432CB59)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (BSP\inc\gpio.h)(0x64327381)
-I (BSP\inc\i2c.h)(0x6432CB10)
-I (RTT\inc\SEGGER_RTT.h)(0x5A74A217)
-I (RTT\inc\SEGGER_RTT_Conf.h)(0x5A74A218)
-F (.\Core\src\at32f435_437_clock.c)(0x6436727F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/at32f435_437_clock.o -MD)
-I (Core\inc\at32f435_437_clock.h)(0x6436726E)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-F (.\lcd_touch\src\touch.c)(0x6432CB87)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/touch.o -MD)
-I (lcd_touch\inc\touch.h)(0x6432C59C)
-I (BSP\inc\sys.h)(0x6432CB59)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (BSP\inc\gpio.h)(0x64327381)
-I (BSP\inc\i2c.h)(0x6432CB10)
-I (RTT\inc\SEGGER_RTT.h)(0x5A74A217)
-I (RTT\inc\SEGGER_RTT_Conf.h)(0x5A74A218)
-F (.\RTT\src\SEGGER_RTT.c)(0x5A74A217)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/segger_rtt.o -MD)
-I (RTT\inc\SEGGER_RTT.h)(0x5A74A217)
-I (RTT\inc\SEGGER_RTT_Conf.h)(0x5A74A218)
-I (D:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
-F (.\RTT\src\SEGGER_RTT_printf.c)(0x5A74A217)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/segger_rtt_printf.o -MD)
-I (RTT\inc\SEGGER_RTT.h)(0x5A74A217)
-I (RTT\inc\SEGGER_RTT_Conf.h)(0x5A74A218)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x603507D4)
-F (.\BSP\src\gpio.c)(0x6432734B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/gpio.o -MD)
-I (BSP\inc\gpio.h)(0x64327381)
-I (BSP\inc\sys.h)(0x6432CB59)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (BSP\inc\i2c.h)(0x6432CB10)
-I (RTT\inc\SEGGER_RTT.h)(0x5A74A217)
-I (RTT\inc\SEGGER_RTT_Conf.h)(0x5A74A218)
-F (.\BSP\src\i2c.c)(0x6432CB41)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/i2c.o -MD)
-I (BSP\inc\i2c.h)(0x6432CB10)
-I (BSP\inc\sys.h)(0x6432CB59)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (BSP\inc\gpio.h)(0x64327381)
-I (RTT\inc\SEGGER_RTT.h)(0x5A74A217)
-I (RTT\inc\SEGGER_RTT_Conf.h)(0x5A74A218)
-F (.\BSP\src\sys.c)(0x643261FB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/sys.o -MD)
-I (BSP\inc\sys.h)(0x6432CB59)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (BSP\inc\gpio.h)(0x64327381)
-I (BSP\inc\i2c.h)(0x6432CB10)
-I (RTT\inc\SEGGER_RTT.h)(0x5A74A217)
-I (RTT\inc\SEGGER_RTT_Conf.h)(0x5A74A218)
-F (.\Drivers\src\at32f435_437_acc.c)(0x63EF20A4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/at32f435_437_acc.o -MD)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-F (.\Drivers\src\at32f435_437_adc.c)(0x63EF20A4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/at32f435_437_adc.o -MD)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-F (.\Drivers\src\at32f435_437_can.c)(0x63EF20A4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/at32f435_437_can.o -MD)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-F (.\Drivers\src\at32f435_437_crc.c)(0x63EF20A4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/at32f435_437_crc.o -MD)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-F (.\Drivers\src\at32f435_437_crm.c)(0x63EF20A4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/at32f435_437_crm.o -MD)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-F (.\Drivers\src\at32f435_437_dac.c)(0x63EF20A4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/at32f435_437_dac.o -MD)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-F (.\Drivers\src\at32f435_437_debug.c)(0x63EF20A4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/at32f435_437_debug.o -MD)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-F (.\Drivers\src\at32f435_437_dma.c)(0x63EF20A4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/at32f435_437_dma.o -MD)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-F (.\Drivers\src\at32f435_437_dvp.c)(0x63EF20A4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/at32f435_437_dvp.o -MD)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-F (.\Drivers\src\at32f435_437_edma.c)(0x63EF20A4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/at32f435_437_edma.o -MD)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-F (.\Drivers\src\at32f435_437_emac.c)(0x63EF20A4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/at32f435_437_emac.o -MD)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-F (.\Drivers\src\at32f435_437_ertc.c)(0x63EF20A4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/at32f435_437_ertc.o -MD)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-F (.\Drivers\src\at32f435_437_exint.c)(0x63EF20A4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/at32f435_437_exint.o -MD)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-F (.\Drivers\src\at32f435_437_flash.c)(0x63EF20A4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/at32f435_437_flash.o -MD)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-F (.\Drivers\src\at32f435_437_gpio.c)(0x63EF20A4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/at32f435_437_gpio.o -MD)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-F (.\Drivers\src\at32f435_437_i2c.c)(0x63EF20A4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/at32f435_437_i2c.o -MD)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-F (.\Drivers\src\at32f435_437_misc.c)(0x63EF20A4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/at32f435_437_misc.o -MD)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-F (.\Drivers\src\at32f435_437_pwc.c)(0x63EF20A4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/at32f435_437_pwc.o -MD)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-F (.\Drivers\src\at32f435_437_qspi.c)(0x63EF20A4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/at32f435_437_qspi.o -MD)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-F (.\Drivers\src\at32f435_437_scfg.c)(0x63EF20A4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/at32f435_437_scfg.o -MD)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-F (.\Drivers\src\at32f435_437_sdio.c)(0x63EF20A4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/at32f435_437_sdio.o -MD)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-F (.\Drivers\src\at32f435_437_spi.c)(0x63EF20A4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/at32f435_437_spi.o -MD)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-F (.\Drivers\src\at32f435_437_tmr.c)(0x63EF20A4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/at32f435_437_tmr.o -MD)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-F (.\Drivers\src\at32f435_437_usart.c)(0x63EF20A4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/at32f435_437_usart.o -MD)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-F (.\Drivers\src\at32f435_437_usb.c)(0x63EF20A4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/at32f435_437_usb.o -MD)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-F (.\Drivers\src\at32f435_437_wdt.c)(0x63EF20A4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/at32f435_437_wdt.o -MD)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-F (.\Drivers\src\at32f435_437_wwdt.c)(0x63EF20A4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/at32f435_437_wwdt.o -MD)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-F (.\Drivers\src\at32f435_437_xmc.c)(0x63EF20A4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/at32f435_437_xmc.o -MD)
-I (Core\inc\at32f435_437_conf.h)(0x64366198)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
-F (RTE\Device\-AT32F435RGT7\startup_at32f435_437.s)(0x63EF20A4)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-4-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 536" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"AT32F435RGT7 SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_at32f435_437.o)
-F (RTE\Device\-AT32F435RGT7\system_at32f435_437.c)(0x63EF20A4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Ofast -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Core/inc -I ./Drivers/inc -I ./BSP/inc -I ./lcd_touch/inc -I ./RTT/inc -I ./User/inc-I./RTE/_Target_1-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/Users/OuYangYunPeng/AppData/Local/Arm/Packs/ArteryTek/AT32F435_437_DFP/2.1.3/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DAT32F435RGT7 -D_RTE_-o ./objects/system_at32f435_437.o -MD)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437.h)(0x63EF213E)
-I (RTE\_Target_1\RTE_Components.h)(0x643669DC)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\system_at32f435_437.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_def.h)(0x63EF20A4)
-I (D:\Users\OuYangYunPeng\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.1.3\Device\Include\at32f435_437_conf.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crm.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_tmr.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_ertc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_gpio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_i2c.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usart.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_pwc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_can.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_adc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_spi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_debug.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_flash.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_crc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wwdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_wdt.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_exint.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_sdio.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_xmc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_acc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_misc.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_edma.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_qspi.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_scfg.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_emac.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_dvp.h)(0x63EF20A4)
-I (Drivers\inc\at32f435_437_usb.h)(0x63EF20A4)
