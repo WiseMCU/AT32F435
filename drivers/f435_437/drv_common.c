@@ -87,10 +87,10 @@ void rt_hw_us_delay(rt_uint32_t us)
 /**
  * This function will initial AT32 board.
  */
-void hw_board_init(char *clock_src, int32_t clock_src_freq, int32_t clock_target_freq)
+void hw_board_init(int32_t clock_target_freq)
 {
     extern void rt_hw_systick_init(void);
-    extern void clk_init(char *clk_source, int source_freq, int target_freq);
+    extern void system_clock_config(uint16_t core);
 
 #ifdef SCB_EnableICache
     /* Enable I-Cache---------------------------------------------------------*/
@@ -106,7 +106,7 @@ void hw_board_init(char *clock_src, int32_t clock_src_freq, int32_t clock_target
     __set_PRIMASK(0);
 
     /* System clock initialization */
-    clk_init(clock_src, clock_src_freq, clock_target_freq);
+    system_clock_config(clock_target_freq);
 
     /* disbale interrupt */
     __set_PRIMASK(1);

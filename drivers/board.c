@@ -14,14 +14,15 @@
 
 RT_WEAK void rt_hw_board_init()
 {
-    extern void hw_board_init(char *clock_src, int32_t clock_src_freq, int32_t clock_target_freq);
+    extern void hw_board_init(int32_t clock_target_freq);
 
     /* Heap initialization */
 #if defined(RT_USING_HEAP)
     rt_system_heap_init((void *) HEAP_BEGIN, (void *) HEAP_END);
 #endif
-
-    hw_board_init(BSP_CLOCK_SOURCE, BSP_CLOCK_SOURCE_FREQ_MHZ, BSP_CLOCK_SYSTEM_FREQ_MHZ);
+	
+	/* 输入主频 120 MHz(F435最高主频288) */
+    hw_board_init(120);
 
     /* Set the shell console output device */
 #if defined(RT_USING_DEVICE) && defined(RT_USING_CONSOLE)
