@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>.\Core\inc;.\Drivers\inc;.\BSP\inc;.\lcd_touch\inc;.\RTT\inc;.\User\inc</IncludePath>
+              <IncludePath>.\Core\inc;.\Drivers\inc;.\BSP\inc;.\RTT\inc;.\User\inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -396,16 +396,6 @@
               <FileName>at32f435_437_clock.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Core\src\at32f435_437_clock.c</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>LCD_TOUCH</GroupName>
-          <Files>
-            <File>
-              <FileName>touch.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\lcd_touch\src\touch.c</FilePath>
             </File>
           </Files>
         </Group>
