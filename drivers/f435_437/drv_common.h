@@ -27,7 +27,7 @@ extern "C" {
 #if RTT_DBG_ENABLE
     #include "SEGGER_RTT.h"
 	
-	#define RTT_FINSH_ENABLE	(0)
+	#define RTT_FINSH_ENABLE	(1)
 	#if RTT_FINSH_ENABLE
 	/* RTT接发缓存大小 */
 	#define MAX_RTT_LENGTH  512

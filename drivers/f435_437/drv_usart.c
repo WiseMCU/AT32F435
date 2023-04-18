@@ -291,12 +291,15 @@ static rt_err_t at32_configure(struct at32_uart *config)
 
 int rt_hw_usart_init(void)
 {
+#if RTT_FINSH_ENABLE
+	DEBUG_INIT();
+#else
     _uart_config = &uart_config[0];
 
     at32_gpio_configure(_uart_config);
 
     at32_configure(_uart_config);
-
+#endif
     return 0;
 }
 
