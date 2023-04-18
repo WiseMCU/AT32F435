@@ -304,6 +304,9 @@ INIT_BOARD_EXPORT(rt_hw_usart_init);
 
 void rt_hw_console_output(const char *str)
 {
+#if RTT_FINSH_ENABLE
+	SEGGER_RTT_printf(RTT_DBG_PORT,"%s", str);
+#else
     rt_size_t i = 0, size = 0;
     char a = '\r';
 
@@ -318,13 +321,38 @@ void rt_hw_console_output(const char *str)
         usart_data_transmit(_uart_config->uart_x, *(uint8_t *)(str + i));
         while(usart_flag_get(_uart_config->uart_x, USART_TDC_FLAG) == RESET);
     }
+#endif
 }
 
 #ifdef RT_USING_FINSH
 char rt_hw_console_getchar(void)
 {
     int ch = -1;
-
+#if RTT_FINSH_ENABLE
+	static char RTT_TX_Buf[MAX_RTT_LENGTH] = {0};
+	static uint32_t Tx_Size = 0;
+	static char *p = RTT_TX_Buf;
+	
+	if (SEGGER_RTT_HasData(0))
+	{
+		Tx_Size = SEGGER_RTT_ReadNoLock(0, RTT_TX_Buf, MAX_RTT_LENGTH);
+		_SEGGER_RTT.aDown[0].WrOff = 0;
+		_SEGGER_RTT.aDown[0].RdOff = 0;
+		p = RTT_TX_Buf;
+		Tx_Size--;
+		ch = *p;
+		return ch;
+	}else{
+		if(Tx_Size)
+		{
+			p++;
+			Tx_Size--;
+			ch = *p;
+			return ch;
+		}
+		rt_thread_mdelay(10);
+	}
+#else
     if (usart_flag_get(_uart_config->uart_x, USART_RDBF_FLAG) != RESET)
     {
         ch = _uart_config->uart_x->dt & 0xff;
@@ -339,6 +367,7 @@ char rt_hw_console_getchar(void)
         }
         rt_thread_mdelay(10);
     }
+#endif
     return ch;
 }
 
